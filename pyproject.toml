@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "connect-vpn"
+version = "0.1.0"
+description = "connect vpn NetExtender"
+authors = ["Kaique-Freitas"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"
+ifcfg = "^0.24"
+psutil = "^6.0.0"
+python-dotenv = "^1.0.1"
+pyautogui = "^0.9.54"
+pyinstaller = "^6.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
